@@ -18,6 +18,7 @@
 		8D8DA9D422B9C6880007C8A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D8DA9D222B9C6880007C8A5 /* Main.storyboard */; };
 		8D8DA9D622B9C6890007C8A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D8DA9D522B9C6890007C8A5 /* Assets.xcassets */; };
 		8D8DA9D922B9C6890007C8A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D8DA9D722B9C6890007C8A5 /* LaunchScreen.storyboard */; };
+		8DD33BBE22C1BE86008602AE /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD33BBD22C1BE86008602AE /* AuthService.swift */; };
 		8DDB094E22BC40BE004D897F /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDB094D22BC40BE004D897F /* GradientView.swift */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +39,7 @@
 		8D8DA9D522B9C6890007C8A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D8DA9D822B9C6890007C8A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D8DA9DA22B9C6890007C8A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DD33BBD22C1BE86008602AE /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		8DDB094D22BC40BE004D897F /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		F7B100CD222855825E14BE83 /* Pods-Smack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smack.release.xcconfig"; path = "Pods/Target Support Files/Pods-Smack/Pods-Smack.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -127,6 +129,7 @@
 		8D8DA9CD22B9C6880007C8A5 /* Smack */ = {
 			isa = PBXGroup;
 			children = (
+				8DD33BBC22C1BE4A008602AE /* Services */,
 				8D45539022BCB0AF00527453 /* Utilities */,
 				8D43AD4C22BA07520019B94A /* Model */,
 				8D43AD4B22BA07420019B94A /* View */,
@@ -139,6 +142,14 @@
 				8D8DA9DA22B9C6890007C8A5 /* Info.plist */,
 			);
 			path = Smack;
+			sourceTree = "<group>";
+		};
+		8DD33BBC22C1BE4A008602AE /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8DD33BBD22C1BE86008602AE /* AuthService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 		F3563E85AD5D6B50D1EA29A4 /* Pods */ = {
@@ -272,6 +283,7 @@
 				8D43AD5022BA09390019B94A /* ChannelVC.swift in Sources */,
 				8D43AD4E22BA09050019B94A /* ChatVC.swift in Sources */,
 				8D45539622BDB33900527453 /* CreateAccountVC.swift in Sources */,
+				8DD33BBE22C1BE86008602AE /* AuthService.swift in Sources */,
 				8D45539422BCC44500527453 /* LoginVC.swift in Sources */,
 				8D45539222BCB10800527453 /* Constatnts.swift in Sources */,
 				8DDB094E22BC40BE004D897F /* GradientView.swift in Sources */,
