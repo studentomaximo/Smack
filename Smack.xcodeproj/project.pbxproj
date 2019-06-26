@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3F376AF08FC2EC75A94687F1 /* Pods_Smack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0048BDD9CC8DFA238A9FB6F3 /* Pods_Smack.framework */; };
+		8D23B9F722C32DF200090FC5 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D23B9F622C32DF200090FC5 /* RoundedButton.swift */; };
 		8D346F2922B9D93800BADE38 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D346F2822B9D93800BADE38 /* SWRevealViewController.m */; };
 		8D43AD4E22BA09050019B94A /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D43AD4D22BA09050019B94A /* ChatVC.swift */; };
 		8D43AD5022BA09390019B94A /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D43AD4F22BA09390019B94A /* ChannelVC.swift */; };
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		0048BDD9CC8DFA238A9FB6F3 /* Pods_Smack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Smack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		413127CAB77CDEEE414F72A2 /* Pods-Smack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smack.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Smack/Pods-Smack.debug.xcconfig"; sourceTree = "<group>"; };
+		8D23B9F622C32DF200090FC5 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		8D346F2622B9D93700BADE38 /* Smack-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Smack-Bridging-Header.h"; sourceTree = "<group>"; };
 		8D346F2722B9D93800BADE38 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		8D346F2822B9D93800BADE38 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				8DDB094D22BC40BE004D897F /* GradientView.swift */,
+				8D23B9F622C32DF200090FC5 /* RoundedButton.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -281,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D43AD5022BA09390019B94A /* ChannelVC.swift in Sources */,
+				8D23B9F722C32DF200090FC5 /* RoundedButton.swift in Sources */,
 				8D43AD4E22BA09050019B94A /* ChatVC.swift in Sources */,
 				8D45539622BDB33900527453 /* CreateAccountVC.swift in Sources */,
 				8DD33BBE22C1BE86008602AE /* AuthService.swift in Sources */,
