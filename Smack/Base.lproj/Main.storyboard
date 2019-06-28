@@ -347,8 +347,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="createAccntPressed:" destination="fAE-9W-kmb" eventType="touchUpInside" id="bhW-Yr-umU"/>
-                                    <action selector="createAccountPressed:" destination="fAE-9W-kmb" eventType="touchUpInside" id="Hj6-2D-UDo"/>
+                                    <action selector="createAccntPressed:" destination="fAE-9W-kmb" eventType="touchUpInside" id="S0S-Km-1n7"/>
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="wd6-wZ-bpk">
